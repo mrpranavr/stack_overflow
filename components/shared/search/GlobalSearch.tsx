@@ -5,7 +5,10 @@ import { Input } from '@/components/ui/input';
 const GlobalSearch = () => {
   return (
     <div className="relative w-full max-w-[600px] max-lg:hidden">
-      <div className="background-light800_darkgradient relative flex min-h-[56px] grow items-center gap-1 rounded-xl px-4">
+      <div
+        className="background-light800_darkgradient relative flex min-h-[56px] 
+      grow items-center gap-1 rounded-xl px-4"
+      >
         <Image
           src="/assets/icons/search.svg"
           alt="search"
@@ -17,7 +20,8 @@ const GlobalSearch = () => {
           type="text"
           placeholder="Search globally"
           value=""
-          className="background-light800_darkgradient paragraph-regular no-focus placeholder border-none shadow-none outline-none"
+          className="background-light800_darkgradient paragraph-regular 
+          no-focus placeholder border-none shadow-none outline-none"
         />
       </div>
     </div>
