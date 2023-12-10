@@ -9,7 +9,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import HomeFilters from '../Home/HomeFilters';
 
 interface FilterProps {
   filters: { name: string; value: string }[];
